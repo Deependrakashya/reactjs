@@ -6,7 +6,8 @@ function App() {
    const [backColor, setbackColor] = useState('white')
    function changebg (color){
     setbackColor(color)
-    console.log(backColor)
+    console.log(color)
+   
   }
 
   return (
